@@ -76,6 +76,7 @@ $('picks').addEventListener('change',e=>{const name=e.target.dataset.team;if(!na
 $('reset').addEventListener('click',()=>$('resetDialog').showModal());$('cancelReset').addEventListener('click',()=>$('resetDialog').close());$('confirmReset').addEventListener('click',()=>{state=fresh();view=0;$('resetDialog').close();render();$('notice').textContent='Fresh league created. Ready for kickoff.';save()});render();
 </script>
 <script defer src="https://feedback.shauryaswebsites.com/widget.js"></script>
+<script defer src="https://navigation.shauryaswebsites.com/launcher.js"></script>
 </body>
 </html>
 
